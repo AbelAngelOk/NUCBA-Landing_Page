@@ -1,0 +1,18 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.parent_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    margin: 1%;
+    background-color: white;
+    border-radius: 0;
+}
+
+.center_row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

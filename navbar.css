@@ -1,0 +1,31 @@
+nav {
+    width: 1100px;
+    height: 70px;
+    margin: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    border-top: 1px;
+    border-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo {
+    margin-left: 10rem;
+    margin-right: 22rem;
+}
+
+.anchor_Nav {
+    color: rgb(117, 112, 112);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-decoration-line: none;
+    text-decoration: none;
+}
