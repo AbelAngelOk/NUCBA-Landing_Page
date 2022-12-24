@@ -4,24 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="navbar.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="Index.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="article.css">
-
-
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="hero.css">
 </head>
-<body>
-    <div class="parent_box center_row">  
-        <nav class="row">
-            <img id="logo" src="resources/logo2.png">
-            <a href="" id="Home" class="anchor_Nav"> <p> Inicio </p>  </a>
-            <a href="" id="About" class="anchor_Nav"> <p> Sobre Mi </p> </a>
-            <a href="" id="Contact" class="anchor_Nav"> <p> Contacto </p> </a>
-        </nav>
-        <article>
-            <br> <br> <br>          
-        </article>
-    </div>
+<body class="max_width">
+    <div class="col_left"> </div>
+    <div class="col_center">
+        <header class="max_width">  
+            <img src="resources/logo2.png">
+            <nav>
+                <li class="gap1">               
+                    <ul> <a href="" id="Home" class="header_nav_a"> Home </a> </ul>
+                    <ul> <a href="" id="About" class="header_nav_a"> About </a> </ul>
+                    <ul> <a href="" id="Contact" class="header_nav_a"> Contact </a> </ul>
+                </li>                 
+            </nav>
+        </header> <!-- header -->
+        <div id="hero" class="hero">
+            <li class="hero_div_left">
+                <ul> 
+                    <h3> Lorem Ipsum </h3> 
+                </ul>
+                <ul>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facilis optio quidem? Quis dolorem quisquam minima nihil minus quas maiores provident esse. Accusantium, sit quod itaque molestias tempora omnis inventore?</p>
+                </ul>
+                <ul id="hero_buttons" class="hero_buttons">
+                    <li>
+                        <ul>
+                            <div class="paddingButton"> 
+                                <button type="button" class="blackButton"> Call To Accion </button>
+                            </div>
+                        </ul>
+                        <ul>
+                            <button class="whiteButton"> Learn More </button>
+                        </ul>
+                    </li>                   
+                </ul> <!-- hero_buttons -->
+            </li> <!-- hero_div_left -->
+            <div class="hero_div_right">
+                <img src="resources/undraw_learning_sketching_nd4f.svg" rel="waifu" class="XY_all">
+            </div> <!-- hero_div_right -->
+        </div> <!-- hero -->
+        <footer>
+            <div><p> proximamente...</p></div>            
+        </footer>
+    </div> <!-- col_center -->
+    <div class="col_right"></div>
 </body>
 </html>
